@@ -15,11 +15,11 @@ quinto output: deve apresentar como resultado a raíz cúbica do valor inserido.
 
 valor = float(input('Insira o valor desejado: '))
 
-calc1 = ((valor) * 2)
-calc2 = ((valor) * 3)
-calc3 = ((valor) ** 2)
-calc4 = ((valor) ** (1/2))
-calc5 = ((valor) ** (1/3))
+calc1 = valor * 2
+calc2 = valor * 3
+calc3 = valor ** 2
+calc4 = valor ** (1/2)
+calc5 = valor ** (1/3)
 
 print(f"O dobro do valor inserido é: {calc1}.")
 print(f"O triplo do valor inserido é: {calc2}.")
