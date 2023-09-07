@@ -19,3 +19,12 @@ deve aparecer "QUE BOM VER VOCÊ DE VOLTA. A PARTIR DE AGORA INICIAMOS MAIS UMA 
 DE 21 DIAS PARA A PROMO TREINA JUNTO."
 '''
 
+frequencia = int(input('Digite a sua frequência: '))
+faltas = int(input('Digite a sua quantidade de faltas: '))
+
+if frequencia < 21 and faltas == 0:
+    print("VOCÊ ESTÁ PARTICIPANDO DA NOSSA PROMO TREINA JUNTO")
+elif frequencia == 21 and faltas == 0:
+    print("UHUU. AGORA VOCÊ PODE PRESENTEAR UM AMIGO OU AMIGA PARA TREINAR COM VOCÊ")
+else:
+    print("QUE BOM VER VOCÊ DE VOLTA. A PARTIR DE AGORA INICIAMOS MAIS UMA CONTAGEM DE 21 DIAS PARA A PROMO TREINA JUNTO.")
